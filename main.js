@@ -19,8 +19,6 @@ window.onload = () => {
 
         
         let x = JSON.parse(window.localStorage.getItem('tasks'));
-        console.log(x)
-
 
         let Div = document.createElement('div');
         let para = document.createElement('input');
