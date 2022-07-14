@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>To Do List App</title>
+</head>
+<body>
+
+    <header>
+        <div id="header-div1">To Do List App</div>
+        <div id="header-midDiv"></div>
+        <div id="header-div2"></div>
+    </header>
+
+    <main>
+        <aside>
+            <div id="add-tasks-btn" onClick="displayTask()"><span id="plus">+</span> Add Task</div>
+
+        <div id="display-div" class="hide-div">
+            <label for="task-input">Task</label>
+            <input type="text" value="" name="task-input" id="task-input">
+
+            <label for="due-date" style="margin-top: 20px;">Due Date</label>
+            <input type="date" value="" name="due-date" id="due-date">
+
+            <button id="add-btn" onclick="addTask()">Add</button>
+        </div>
+        <button id="clearBtn" onclick="clearAll()">Clear All</button>
+        </aside>
+
+        <div id="tasks-div">
+            <h2>Tasks</h2>
+        </div>
+    </main>
+
+    
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
